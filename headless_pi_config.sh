@@ -27,8 +27,8 @@ activate_ssh () {
 activate_wifi () {
     echo -e "\nConfiguring WiFi access.\n"
 
-    read -p "Enter ssid of your network? " ssid
-    read -p "Enter the password for ${ssid} " psk
+    read -p "Enter ssid of your network: " ssid
+    read -p "Enter the password for ${ssid}: " psk
 
 cat << EOF > ${card_path}/wpa_supplicant.conf
 country=US
