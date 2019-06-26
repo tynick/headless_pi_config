@@ -8,6 +8,5 @@ You can change this path in the card_path variable if you know what you are doin
 ```bash
 git clone git@github.com:tynick/headless_pi_config.git
 cd headless_pi_config
-chmod 755 headless_pi_config.sh
 ./headless_pi_config.sh
 ```
